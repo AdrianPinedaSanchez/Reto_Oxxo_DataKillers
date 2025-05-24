@@ -2,25 +2,23 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 
-path = r'C:\Users\cabal\Desktop\Datathon2025\Reto_Oxxo_DataKillers\Reto Oxxo\DIM_TIENDA.csv' 
-path = path.replace("\\", "/")
+data=pd.read_csv(r'C:\Users\cabal\Desktop\Datathon2025\data_completa.csv')
+df = pd.DataFrame(data)
 
-df_tiendas = pd.read_csv(path)
-df_tiendas = df_tiendas.dropna(subset=['LATITUD_NUM', 'LONGITUD_NUM'])
+df['FECHA'] = pd.to_datetime(df['FECHA']) 
+df.rename(columns={'LATITUD_NUM': 'Latitud', 'LONGITUD_NUM': 'Longitud'}, inplace=True)
+df['Fecha_str'] = df['FECHA'].dt.strftime('%Y-%m')  # Para usar como frame de animación
 
-Tiendas = df_tiendas['TIENDA_ID'].values
-Latitud = df_tiendas['LATITUD_NUM'].values
-Longitud = df_tiendas['LONGITUD_NUM'].values
-N_Tiendas = len(Tiendas)
-Volumen = np.random.uniform(0, 1, N_Tiendas)
-
-data_tiendas = {'Tiendas': Tiendas, 'Latitud': Latitud, 'Longitud': Longitud}#, 'Volumen': Volumen}
-df_plot = pd.DataFrame(data_tiendas)
-
-# Crear gráfico
-fig = px.scatter_mapbox(df_plot, lat="Latitud", lon="Longitud", zoom=10,
-                        title='OXXO Tiendas', hover_name="Tiendas",
-                        mapbox_style="open-street-map")#size='Volumen'
+fig = px.scatter_mapbox(df,
+                        lat="Latitud",
+                        lon="Longitud",
+                        size="VENTA_TOTAL",
+                        color="VENTA_TOTAL",
+                        hover_name="TIENDA_ID",
+                        animation_frame="Fecha_str",
+                        zoom=8,
+                        mapbox_style="open-street-map",
+                        title="Animación de Ventas Totales por Tienda OXXO")
 
 fig.update_layout(margin={"r":0,"t":40,"l":0,"b":0})
 fig.show()
