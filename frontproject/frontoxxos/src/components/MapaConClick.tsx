@@ -130,8 +130,10 @@ const MapaConClick = () => {
         {resultado && (
           <>
             <h3>Resultado del Modelo:</h3>
-            <p><strong>Categoría:</strong> {resultado.categoria}</p>
-            <p><strong>Puntuación:</strong> {resultado.puntuacion}</p>
+            <p><strong>latitud:</strong> {resultado.lat}</p>
+            <p><strong>longitud:</strong> {resultado.lng}</p>
+
+            <p><strong>Puntuación:</strong> {resultado.result}</p>
           </>
         )}
       </div>

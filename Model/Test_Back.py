@@ -6,10 +6,10 @@ import numpy as np
 
 
 # Cargar modelo y encoders
-model = joblib.load("Reto_Oxxo_DataKillers/Model/modelo_regresion_succ.pkl")
-enc_nivel = joblib.load("Reto_Oxxo_DataKillers/Model/enc_nivel.pkl")
-enc_entorno = joblib.load("Reto_Oxxo_DataKillers/Model/enc_entorno.pkl")
-enc_segmento = joblib.load("Reto_Oxxo_DataKillers/Model/enc_segmento.pkl")
+model = joblib.load(r"C:\Users\danyO\Documents\project-front\Model\modelo_regresion_succ.pkl")
+enc_nivel = joblib.load(r"C:\Users\danyO\Documents\project-front\Model\enc_nivel.pkl")
+enc_entorno = joblib.load(r"C:\Users\danyO\Documents\project-front\Model\enc_entorno.pkl")
+enc_segmento = joblib.load(r"C:\Users\danyO\Documents\project-front\Model\enc_segmento.pkl")
 
 # Cargar test
 test_path = 'https://raw.githubusercontent.com/AdrianPinedaSanchez/Reto_Oxxo_DataKillers/main/Reto%20Oxxo/DIM_TIENDA_TEST.csv'
