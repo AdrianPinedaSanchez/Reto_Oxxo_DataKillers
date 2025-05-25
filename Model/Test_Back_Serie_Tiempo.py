@@ -154,7 +154,7 @@ df_completo_rellenado = rellenar_ceros(df_completo)
 model_path = "mejor_modelo_xgb.json"
 
 # Definir desde qué fecha quieres predecir
-fecha_forecast = "2024-08-01"
+fecha_forecast = "2025-01-01"
 
 # Ejecutar predicción
 predicciones = predecir_ventas(model_path, df_completo_rellenado, fecha_forecast)
