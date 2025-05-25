@@ -68,17 +68,18 @@ enc_segmento = LabelEncoder()
 df['NIVELSOCIOECONOMICO_DES'] = enc_nivel.fit_transform(df['NIVELSOCIOECONOMICO_DES'])
 df['ENTORNO_DES'] = enc_entorno.fit_transform(df['ENTORNO_DES'])
 df['SEGMENTO_MAESTRO_DESC'] = enc_segmento.fit_transform(df['SEGMENTO_MAESTRO_DESC'])
-
+#MTS2VENTAS_NUM	PUERTASREFRIG_NUM	CAJONESESTACIONAMIENTO_NUM
 # Guardar encoders
-joblib.dump(enc_nivel, "Reto_Oxxo_DataKillers/Model/enc_nivel.pkl")
-joblib.dump(enc_entorno, "Reto_Oxxo_DataKillers/Model/enc_entorno.pkl")
-joblib.dump(enc_segmento, "Reto_Oxxo_DataKillers/Model/enc_segmento.pkl")
+# joblib.dump(enc_nivel, "Reto_Oxxo_DataKillers/Model/enc_nivel.pkl")
+# joblib.dump(enc_entorno, "Reto_Oxxo_DataKillers/Model/enc_entorno.pkl")
+# joblib.dump(enc_segmento, "Reto_Oxxo_DataKillers/Model/enc_segmento.pkl")
 
 # --------------------------
 # Variables de entrada y salida
+# X = df[['LATITUD_NUM', 'LONGITUD_NUM', 'PLAZA_CVE',
+#         'NIVELSOCIOECONOMICO_DES', 'ENTORNO_DES', 'SEGMENTO_MAESTRO_DESC']]
 X = df[['LATITUD_NUM', 'LONGITUD_NUM', 'PLAZA_CVE',
-        'NIVELSOCIOECONOMICO_DES', 'ENTORNO_DES', 'SEGMENTO_MAESTRO_DESC']]
-
+        'MTS2VENTAS_NUM', 'PUERTASREFRIG_NUM', 'CAJONESESTACIONAMIENTO_NUM']]
 y = df['succ'].astype(float)  # continua entre 0 y 1
 
 # Entrenamiento
@@ -95,6 +96,7 @@ print("RMSE:", np.sqrt(mean_squared_error(y_test, y_pred)))
 
 # Guardar modelo
 # Crear carpeta si no existe
+os.makedirs("Reto_Oxxo_DataKillers/Model", exist_ok=True)
 
 # Guardar el modelo dentro de la carpeta Model del repositorio
 joblib.dump(model, "Reto_Oxxo_DataKillers/Model/modelo_regresion_succ.pkl")
