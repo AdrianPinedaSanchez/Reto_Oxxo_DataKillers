@@ -10,6 +10,10 @@ Una aplicación interactiva desarrollada en **TypeScript** que muestra un mapa d
 
 ---
 
+## Reporte Tecnico LATEX
+
+## [Reporte Técnico](Datathon_ReporteTecnicoDetallado.pdf)
+
 ## 🚀 Características principales
 
 - 📍 Visualización de tiendas en un mapa interactivo usando Google Maps.
