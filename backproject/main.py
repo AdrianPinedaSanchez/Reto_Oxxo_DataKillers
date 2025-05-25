@@ -252,20 +252,12 @@ def get_elevation(lat: float, lng: float):
     return response.json()
 
 @app.get("/predictionFuture")
-def get_elevation(years: int):
-    df=predictByYears(years)
-     # Convertir todos los tipos de datos a tipos nativos de Python
-    records = df.astype(object).where(pd.notnull(df), None).to_dict(orient="records")
-    
-    # Convertir numpy.int64 o float64 a int o float
-    for record in records:
-        for key, value in record.items():
-            if isinstance(value, (np.integer, np.int64)):
-                record[key] = int(value)
-            elif isinstance(value, (np.floating, np.float64)):
-                record[key] = float(value)
-            elif isinstance(value, (np.bool_)):
-                record[key] = bool(value)
-    print(records)
-    return records
+def predict_future(valor:int):
+    print(valor)
+    # df=predictByYears(valor)
+    # output_path=r"C:\Users\danyO\Documents\project-front\frontproject\frontoxxos\public\data\Forecast_2025-01.csv"
+    # df.to_csv(output_path, index=False)
+    return {"resultado": valor * 10}  # Ejemplo simple
+ 
+
 

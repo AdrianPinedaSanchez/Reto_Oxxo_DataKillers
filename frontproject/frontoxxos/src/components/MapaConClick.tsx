@@ -137,7 +137,6 @@ const onMapClick = useCallback(async (event: google.maps.MapMouseEvent) => {
             <p><strong>longitud:</strong> {resultado.lng}</p>
 
             <p><strong>Puntuación:</strong> {resultado.result}</p>
-            <p><strong>¿Hay agua en esta ubicación?</strong> {resultado.hayAgua ? 'Sí 💧' : 'No 🌍'}</p>
           </>
         )}
         
