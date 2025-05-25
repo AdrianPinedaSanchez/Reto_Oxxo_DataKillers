@@ -86,7 +86,9 @@ df_ventas=pd.read_csv(path_ventas)
 path_train = 'https://raw.githubusercontent.com/AdrianPinedaSanchez/Reto_Oxxo_DataKillers/main/Reto%20Oxxo/DIM_TIENDA.csv'
 df_tiendas=pd.read_csv(path_train)
 
-path_min_ind = r'C:\Users\cabal\Desktop\Datathon2025\Reto_Oxxo_DataKillers\min_indices.json'
+
+
+path_min_ind = r'C:\Users\danyO\Documents\project-front\min_indices.json'
 
 tiendas = df_ventas['TIENDA_ID'].unique()
 meses = list(df_ventas['MES_ID'].unique())
@@ -151,7 +153,7 @@ df_completo_rellenado = rellenar_ceros(df_completo)
 
 # Ruta al modelo entrenado
 # model_path = os.path.join("Reto_Oxxo_DataKillers", "Model", "modelo_xgb_serie.json")
-model_path = "mejor_modelo_xgb.json"
+model_path = r"C:\Users\danyO\Documents\project-front\mejor_modelo_xgb.json"
 
 # Definir desde qué fecha quieres predecir
 fecha_forecast = "2025-01-01"
@@ -161,7 +163,14 @@ predicciones = predecir_ventas(model_path, df_completo_rellenado, fecha_forecast
 print(predicciones)
 
 # Ruta destino dentro del repo
-output_path = os.path.join("Reto_Oxxo_DataKillers", "Forecasts", f"Forecast_{fecha_forecast[:7]}.csv")
+import os
+
+output_path = os.path.join(
+    r"C:\Users\danyO\Documents\project-front",
+    "Reto_Oxxo_DataKillers",
+    "Forecasts",
+    f"Forecast_{fecha_forecast[:7]}.csv"
+)
 
 # Crear carpeta si no existe
 os.makedirs(os.path.dirname(output_path), exist_ok=True)

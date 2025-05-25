@@ -15,9 +15,18 @@ const containerStyle = {
 };
 
 const center = {
-  lat: 19.4326,
-  lng: -99.1332,
+  lat: 25.5,
+  lng: -99.5 
 };
+
+type Resultado = {
+  lat:number;
+        lng:number;
+        result: string;
+        hayAgua: boolean;
+        mensaje: string;
+};
+
 
 const isInMexico = (lat: number, lng: number): boolean => {
   return lat >= 14.5 && lat <= 32.7 && lng >= -118.5 && lng <= -86.5;
@@ -44,8 +53,18 @@ const verificarAguaEnUbicacion = async (lat: number, lng: number): Promise<boole
 
 
 const MapaConClick = () => {
-  const [coords, setCoords] = useState<Coords | null>(null);
-  const [resultado, setResultado] = useState<any>(null);
+  const [coords, setCoords] = useState<Coords>({
+  lat: 0,
+  lng: 0,
+});
+
+  const [resultado, setResultado] = useState<any>({
+    lat:0,
+        lng:0,
+        result: "NA",
+        hayAgua: false,
+        mensaje: "NA"
+  });
 
   const { isLoaded } = useJsApiLoader({
     googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string
@@ -69,10 +88,10 @@ const onMapClick = useCallback(async (event: google.maps.MapMouseEvent) => {
 
     if (!isInMexico(lat, lng)) {
       setResultado({
-        lat,
-        lng,
+        lat:0,
+        lng:0,
         result: "Ubicación fuera de México ❌",
-        hayAgua: null,
+        hayAgua: false,
         mensaje: "Ubicación fuera de México ❌"
       });
       return;
@@ -101,7 +120,7 @@ const onMapClick = useCallback(async (event: google.maps.MapMouseEvent) => {
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-        zoom={12}
+        zoom={7}
         onClick={onMapClick}
       />
       <div style={{ marginTop: '20px' }}>

@@ -14,10 +14,8 @@ type LocationData = {
   venta: number;
   tienda: string;
   fecha: string;
-  plaza: string;
-  segmento: string;
-  entorno: string;
-  nivelSocio: string;
+  mapetest: number;
+  maetest:number;
 };
 
 const containerStyle = {
@@ -43,7 +41,7 @@ const SalesMapWithInfo = () => {
   });
 
   useEffect(() => {
-    Papa.parse('/data/data_completa.csv', {
+    Papa.parse('/data/Forecast_2025-01.csv', {
       download: true,
       header: true,
       complete: (result: Papa.ParseResult<Record<string, string>>) => {
@@ -52,7 +50,7 @@ const SalesMapWithInfo = () => {
         result.data.forEach(row => {
           const lat = parseFloat(row['LATITUD_NUM']);
           const lng = parseFloat(row['LONGITUD_NUM']);
-          const venta = parseFloat(row['VENTA_TOTAL']);
+          const venta = parseFloat(row['VENTA_PRED']);
           const tienda = row['TIENDA_ID'];
 
           if (!isNaN(lat) && !isNaN(lng) && !isNaN(venta)) {
@@ -62,10 +60,8 @@ const SalesMapWithInfo = () => {
               venta,
               tienda,
               fecha: row['FECHA'],
-              plaza: row['PLAZA_CVE'],
-              segmento: row['SEGMENTO_MAESTRO_DESC'],
-              entorno: row['ENTORNO_DES'],
-              nivelSocio: row['NIVELSOCIOECONOMICO_DES']
+              mapetest: parseFloat(row['mape_test']),
+              maetest: parseFloat(row['mae_test'])
             };
 
             if (!grouped[tienda]) {
@@ -119,10 +115,6 @@ const SalesMapWithInfo = () => {
               <div key={idx} style={{ borderBottom: '1px solid #ccc', marginBottom: '8px'}}>
                 <p><strong>Fecha:</strong> {entry.fecha}</p>
                 <p><strong>Ventas:</strong> {entry.venta.toLocaleString('es-MX', { style: 'currency', currency: 'MXN' })}</p>
-                <p><strong>Plaza:</strong> {entry.plaza}</p>
-                <p><strong>Segmento:</strong> {entry.segmento}</p>
-                <p><strong>Entorno:</strong> {entry.entorno}</p>
-                <p><strong>Nivel socioeconómico:</strong> {entry.nivelSocio}</p>
               </div>
             ))}
           </div>
