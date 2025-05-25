@@ -7,6 +7,9 @@ from math import radians
 import numpy as np
 from fastapi.encoders import jsonable_encoder
 
+import requests
+from dotenv import load_dotenv
+import os
 app = FastAPI()
 
 def modelitocachondo(latitude: float, longitud: float):
@@ -78,3 +81,12 @@ def predict(lat: float = Query(...), lng: float = Query(...)):
         "result": result,    }
     
     return resultado_fake
+
+load_dotenv()
+GOOGLE_API_KEY = os.getenv("VITE_GOOGLE_MAPS_API_KEY")
+
+@app.get("/elevation")
+def get_elevation(lat: float, lng: float):
+    url = f"https://maps.googleapis.com/maps/api/elevation/json?locations={lat},{lng}&key={GOOGLE_API_KEY}"
+    response = requests.get(url)
+    return response.json()

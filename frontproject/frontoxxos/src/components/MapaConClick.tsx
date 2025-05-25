@@ -1,67 +1,3 @@
-// // src/components/MapaConClick.tsx
-// import { useState, useCallback } from 'react';
-// import {
-//   GoogleMap,
-//   useJsApiLoader,
-// } from '@react-google-maps/api';
-
-// type Coords = {
-//   lat: number;
-//   lng: number;
-// };
-
-// const containerStyle = {
-//   width: '100%',
-//   height: '400px',
-// };
-
-// const center = {
-//   lat: 19.4326, // Ciudad de México
-//   lng: -99.1332,
-// };
-
-// const MapaConClick = () => {
-//   const [coords, setCoords] = useState<Coords | null>(null);
-
-//   const { isLoaded } = useJsApiLoader({
-//     googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string
-//   });
-
-//   const onMapClick = useCallback((event: google.maps.MapMouseEvent) => {
-//     if (event.latLng) {
-//       setCoords({
-//         lat: event.latLng.lat(),
-//         lng: event.latLng.lng(),
-//       });
-//     }
-//   }, []);
-
-//   if (!isLoaded) return <div>Cargando mapa...</div>;
-
-//   return (
-//     <div>
-//       <GoogleMap
-//         mapContainerStyle={containerStyle}
-//         center={center}
-//         zoom={12}
-//         onClick={onMapClick}
-//       />
-//       <div style={{ marginTop: '20px' }}>
-//         {coords ? (
-//           <>
-//             <p><strong>Latitud:</strong> {coords.lat}</p>
-//             <p><strong>Longitud:</strong> {coords.lng}</p>
-//           </>
-//         ) : (
-//           <p>Haz clic en el mapa para obtener coordenadas</p>
-//         )}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default MapaConClick;
-
 import { useState, useCallback } from 'react';
 import {
   GoogleMap,
@@ -83,6 +19,26 @@ const center = {
   lng: -99.1332,
 };
 
+
+const verificarAguaEnUbicacion = async (lat: number, lng: number): Promise<boolean> => {
+  const url = `http://localhost:8000/elevation?lat=${lat}&lng=${lng}`;
+  try {
+    const res = await fetch(url);
+    const data = await res.json();
+    if (data.status === "OK" && data.results.length > 0) {
+      const elevation = data.results[0].elevation;
+      return elevation <= 0.5;
+    } else {
+      console.error("Error en Elevation API:", data.status);
+      return false;
+    }
+  } catch (error) {
+    console.error("Error al consultar Elevation API:", error);
+    return false;
+  }
+};
+
+
 const MapaConClick = () => {
   const [coords, setCoords] = useState<Coords | null>(null);
   const [resultado, setResultado] = useState<any>(null);
@@ -101,14 +57,25 @@ const MapaConClick = () => {
     }
   };
 
-  const onMapClick = useCallback((event: google.maps.MapMouseEvent) => {
-    if (event.latLng) {
-      const lat = event.latLng.lat();
-      const lng = event.latLng.lng();
-      setCoords({ lat, lng });
-      fetchResultado(lat, lng); // Llama a la API al hacer clic
-    }
-  }, []);
+const onMapClick = useCallback(async (event: google.maps.MapMouseEvent) => {
+  if (event.latLng) {
+    const lat = event.latLng.lat();
+    const lng = event.latLng.lng();
+    setCoords({ lat, lng });
+
+    fetchResultado(lat, lng); // tu modelo
+
+    const hayAgua = await verificarAguaEnUbicacion(lat, lng);
+
+// Si hay agua, forzamos la puntuación a 0
+setResultado(prev => ({
+  ...prev,
+  hayAgua,
+  result: hayAgua ? 0 : prev.result,
+}));
+
+  }
+}, []);
 
   if (!isLoaded) return <div>Cargando mapa...</div>;
 
@@ -134,8 +101,10 @@ const MapaConClick = () => {
             <p><strong>longitud:</strong> {resultado.lng}</p>
 
             <p><strong>Puntuación:</strong> {resultado.result}</p>
+            <p><strong>¿Hay agua en esta ubicación?</strong> {resultado.hayAgua ? 'Sí 💧' : 'No 🌍'}</p>
           </>
         )}
+        
       </div>
     </div>
   );
