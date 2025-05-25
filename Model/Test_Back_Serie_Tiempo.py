@@ -3,6 +3,9 @@ import numpy as np
 import xgboost as xgb
 from datetime import timedelta
 import os
+
+
+
 def preparar_features_para_forecast(df, fecha_inicio_forecast, forecast_days=3, lag_days=12):
     from pandas.tseries.offsets import DateOffset
 
@@ -148,12 +151,13 @@ def rellenar_ceros(df):
 df_completo_rellenado = rellenar_ceros(df_completo)
 
 # Ruta al modelo entrenado
-model_path = os.path.join("Reto_Oxxo_DataKillers", "Model", "modelo_xgb_serie.json")
+model_path = r"C:\Users\danyO\Documents\project-front\Model\modelo_xgb_serie.json"
 # Definir desde qué fecha quieres predecir
 fecha_forecast = "2024-08-01"
 
 # Ejecutar predicción
 predicciones = predecir_ventas(model_path, df_completo_rellenado, fecha_forecast)
+print(predicciones)
 
 # Ruta destino dentro del repo
 output_path = os.path.join("Reto_Oxxo_DataKillers", "Forecasts", f"Forecast_{fecha_forecast[:7]}.csv")

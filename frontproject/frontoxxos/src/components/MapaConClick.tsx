@@ -19,6 +19,10 @@ const center = {
   lng: -99.1332,
 };
 
+const isInMexico = (lat: number, lng: number): boolean => {
+  return lat >= 14.5 && lat <= 32.7 && lng >= -118.5 && lng <= -86.5;
+};
+
 
 const verificarAguaEnUbicacion = async (lat: number, lng: number): Promise<boolean> => {
   const url = `http://localhost:8000/elevation?lat=${lat}&lng=${lng}`;
@@ -63,21 +67,34 @@ const onMapClick = useCallback(async (event: google.maps.MapMouseEvent) => {
     const lng = event.latLng.lng();
     setCoords({ lat, lng });
 
+    if (!isInMexico(lat, lng)) {
+      setResultado({
+        lat,
+        lng,
+        result: "Ubicación fuera de México ❌",
+        hayAgua: null,
+        mensaje: "Ubicación fuera de México ❌"
+      });
+      return;
+    }
+
     fetchResultado(lat, lng); // tu modelo
 
     const hayAgua = await verificarAguaEnUbicacion(lat, lng);
 
-// Si hay agua, forzamos la puntuación a 0
-setResultado(prev => ({
-  ...prev,
-  hayAgua,
-  result: hayAgua ? 0 : prev.result,
-}));
-
+    setResultado(prev => ({
+      ...prev,
+      hayAgua,
+      result: hayAgua ? 0 : prev.result,
+    }));
   }
 }, []);
 
+
   if (!isLoaded) return <div>Cargando mapa...</div>;
+
+
+
 
   return (
     <div>

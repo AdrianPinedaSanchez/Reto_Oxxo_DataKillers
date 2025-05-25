@@ -28,15 +28,34 @@
 
 
 
+
+//APP QUE MUESTRA LO DE CUANDO CLICKEAS
+// src/App.tsx
+// import './App.css';
+// import MapaConClick from './components/MapaConClick';
+
+// function App() {
+//   return (
+//     <div style={{ padding: '2rem' }}>
+//       <h1>Mapa Interactivo con React y TypeScript</h1>
+//       <MapaConClick />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
 // src/App.tsx
 import './App.css';
-import MapaConClick from './components/MapaConClick';
+import ShowMapPrediction from './components/showMapPrediction';
 
 function App() {
   return (
-    <div style={{ padding: '2rem' }}>
-      <h1>Mapa Interactivo con React y TypeScript</h1>
-      <MapaConClick />
+    <div>
+      <h1>Predicción de Ventas por Tienda</h1>
+      <ShowMapPrediction />
     </div>
   );
 }
