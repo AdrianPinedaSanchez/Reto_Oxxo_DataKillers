@@ -3,6 +3,7 @@ import numpy as np
 import xgboost as xgb
 from datetime import timedelta
 import os
+import json
 def preparar_features_para_forecast(df, fecha_inicio_forecast, forecast_days=3, lag_days=12):
     from pandas.tseries.offsets import DateOffset
 
@@ -85,6 +86,7 @@ df_ventas=pd.read_csv(path_ventas)
 path_train = 'https://raw.githubusercontent.com/AdrianPinedaSanchez/Reto_Oxxo_DataKillers/main/Reto%20Oxxo/DIM_TIENDA.csv'
 df_tiendas=pd.read_csv(path_train)
 
+path_min_ind = r'C:\Users\cabal\Desktop\Datathon2025\Reto_Oxxo_DataKillers\min_indices.json'
 
 tiendas = df_ventas['TIENDA_ID'].unique()
 meses = list(df_ventas['MES_ID'].unique())
@@ -148,7 +150,9 @@ def rellenar_ceros(df):
 df_completo_rellenado = rellenar_ceros(df_completo)
 
 # Ruta al modelo entrenado
-model_path = os.path.join("Reto_Oxxo_DataKillers", "Model", "modelo_xgb_serie.json")
+# model_path = os.path.join("Reto_Oxxo_DataKillers", "Model", "modelo_xgb_serie.json")
+model_path = "mejor_modelo_xgb.json"
+
 # Definir desde qué fecha quieres predecir
 fecha_forecast = "2024-08-01"
 
@@ -160,7 +164,16 @@ output_path = os.path.join("Reto_Oxxo_DataKillers", "Forecasts", f"Forecast_{fec
 
 # Crear carpeta si no existe
 os.makedirs(os.path.dirname(output_path), exist_ok=True)
+df_tiendas=df_tiendas[['TIENDA_ID','LATITUD_NUM','LONGITUD_NUM']]
+predicciones=predicciones.merge(df_tiendas,on='TIENDA_ID')
+with open(path_min_ind, 'r') as f:
+    min_indices = json.load(f)
 
+# Convertir a DataFrame
+df_metrics = pd.DataFrame(min_indices)
+
+# Unir las métricas por TIENDA_ID al DataFrame de predicciones
+predicciones = predicciones.merge(df_metrics, on='TIENDA_ID', how='left')
 # Guardar predicciones
 predicciones.to_csv(output_path, index=False)
 print(f"Predicciones guardadas en: {output_path}")
