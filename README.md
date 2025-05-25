@@ -2,4 +2,4 @@
 
 
 Video de presentacion
-![](https://youtu.be/kbkdhzJ0MOc)
+[Ver demostración en YouTube](https://youtu.be/kbkdhzJ0MOc)
