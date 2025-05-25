@@ -70,9 +70,9 @@ df['ENTORNO_DES'] = enc_entorno.fit_transform(df['ENTORNO_DES'])
 df['SEGMENTO_MAESTRO_DESC'] = enc_segmento.fit_transform(df['SEGMENTO_MAESTRO_DESC'])
 
 # Guardar encoders
-joblib.dump(enc_nivel, "enc_nivel.pkl")
-joblib.dump(enc_entorno, "enc_entorno.pkl")
-joblib.dump(enc_segmento, "enc_segmento.pkl")
+joblib.dump(enc_nivel, "Reto_Oxxo_DataKillers/Model/enc_nivel.pkl")
+joblib.dump(enc_entorno, "Reto_Oxxo_DataKillers/Model/enc_entorno.pkl")
+joblib.dump(enc_segmento, "Reto_Oxxo_DataKillers/Model/enc_segmento.pkl")
 
 # --------------------------
 # Variables de entrada y salida
