@@ -1,0 +1,9 @@
+{
+    "objective": "reg:squarederror",
+    "tree_method": "hist",
+    "colsample_bytree": 0.9,
+    "learning_rate": 0.05,
+    "max_depth": 8,
+    "device": "cuda",
+    "num_boost_round": 500
+}

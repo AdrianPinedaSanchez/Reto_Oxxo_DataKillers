@@ -1,0 +1,2432 @@
+[
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:pseudohubererror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 273075.5977364456,
+        "mape_test": 339868.8876639597,
+        "mae_train": 2273881348.70293,
+        "mae_test": 2273868321.235554
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 35.874451656868054,
+        "mape_test": 57.395395021554165,
+        "mae_train": 164251.09622086844,
+        "mae_test": 177193.39366615863
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 26.76477055645203,
+        "mape_test": 40.773300230100965,
+        "mae_train": 85449.69751232104,
+        "mae_test": 97230.72173264796
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 24.987023488661258,
+        "mape_test": 37.717916029141705,
+        "mae_train": 76614.35985075032,
+        "mae_test": 89568.22839238029
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 33.33712549278798,
+        "mape_test": 54.82838658127655,
+        "mae_train": 155305.85572846225,
+        "mae_test": 169600.1190630067
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 21.667228100326724,
+        "mape_test": 37.71175070052362,
+        "mae_train": 74435.07362713802,
+        "mae_test": 91280.95787044738
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 18.84448006612977,
+        "mape_test": 35.180437437387816,
+        "mae_train": 65472.57625638319,
+        "mae_test": 85307.30660791897
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 29.276649814419162,
+        "mape_test": 53.851532053515186,
+        "mae_train": 148640.20801499917,
+        "mae_test": 166885.82490586568
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 15.05723968191486,
+        "mape_test": 36.0003788941053,
+        "mae_train": 61364.55293657208,
+        "mae_test": 88768.99722849148
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 12.0724138124625,
+        "mape_test": 33.805074357482894,
+        "mae_train": 50173.254250768536,
+        "mae_test": 83734.58903435929
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 24.88538346562851,
+        "mape_test": 37.608760996001955,
+        "mae_train": 76848.01638064987,
+        "mae_test": 89418.65361291442
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 21.131300500672406,
+        "mape_test": 34.709585704234335,
+        "mae_train": 67967.5615154396,
+        "mae_test": 85144.47547892806
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 18.042078180506188,
+        "mape_test": 34.06767127267808,
+        "mae_train": 62633.32024816051,
+        "mae_test": 84725.06196839285
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 19.034003731255943,
+        "mape_test": 35.002428667424184,
+        "mae_train": 65574.38617100795,
+        "mae_test": 85567.28556922643
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 13.085737508666412,
+        "mape_test": 33.14181853177789,
+        "mae_train": 51748.595226741134,
+        "mae_test": 83512.78376169164
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 9.451856163704099,
+        "mape_test": 33.02935701565409,
+        "mae_train": 41618.005073409346,
+        "mae_test": 83738.40403846254
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 12.120594801076335,
+        "mape_test": 33.70558270031804,
+        "mae_train": 50611.60942134985,
+        "mae_test": 84132.7707139491
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 6.655321225409526,
+        "mape_test": 32.86255707456459,
+        "mae_train": 31372.721326432365,
+        "mae_test": 83405.11845468577
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 3.861645863004681,
+        "mape_test": 32.85307637006126,
+        "mae_train": 20004.43787181597,
+        "mae_test": 83550.74487312842
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 22.686473781883297,
+        "mape_test": 35.40947102513441,
+        "mae_train": 71774.13767979167,
+        "mae_test": 86934.35643385112
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 16.12942694153643,
+        "mape_test": 33.753127040824616,
+        "mae_train": 60289.79459317346,
+        "mae_test": 85087.7290850695
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 12.922638298263745,
+        "mape_test": 33.45197337952616,
+        "mae_train": 52429.49176761695,
+        "mae_test": 85244.295598186
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 15.813231168863402,
+        "mape_test": 33.56833243492012,
+        "mae_train": 58235.16798081592,
+        "mae_test": 83740.32018256957
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 8.076811112491582,
+        "mape_test": 33.08560950545651,
+        "mae_train": 37223.348655708854,
+        "mae_test": 84109.40858401322
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 4.864135459457177,
+        "mape_test": 33.08765422575585,
+        "mae_train": 25290.037189643608,
+        "mae_test": 84723.65909669067
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 8.809876827077836,
+        "mape_test": 32.88344380068613,
+        "mae_train": 39620.640270002295,
+        "mae_test": 83599.550318859
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 3.1155861181693236,
+        "mape_test": 32.84486964539467,
+        "mae_train": 16125.809171424555,
+        "mae_test": 84617.32716312232
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 1.2179882641252373,
+        "mape_test": 32.87550323557527,
+        "mae_train": 7028.362960027691,
+        "mae_test": 84889.54569194326
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 35.711377901066804,
+        "mape_test": 57.12028526945561,
+        "mae_train": 163031.6385053237,
+        "mae_test": 175697.32789734166
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 26.459769692034893,
+        "mape_test": 40.499707460824474,
+        "mae_train": 84323.88673185521,
+        "mae_test": 96509.35658404157
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 24.668657234823634,
+        "mape_test": 37.59741159858541,
+        "mae_train": 76358.9619796157,
+        "mae_test": 89624.7329549337
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 32.88788660035779,
+        "mape_test": 54.41904635140298,
+        "mae_train": 153768.49654845407,
+        "mae_test": 167654.4101720279
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 21.061975438859864,
+        "mape_test": 37.4258205850508,
+        "mae_train": 73153.0426159337,
+        "mae_test": 90519.71420518484
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 18.200983364357985,
+        "mape_test": 35.09707327844444,
+        "mae_train": 64568.286928441434,
+        "mae_test": 85489.8092081162
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 28.659875443345832,
+        "mape_test": 53.383886557437734,
+        "mae_train": 147069.82098364594,
+        "mae_test": 165288.91691298017
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 14.262391659818176,
+        "mape_test": 35.56081432313796,
+        "mae_train": 59606.66673881394,
+        "mae_test": 88156.87741904322
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 11.42292952092586,
+        "mape_test": 33.59883768375883,
+        "mae_train": 48727.48935591738,
+        "mae_test": 83830.81700128863
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 24.575030677094308,
+        "mape_test": 37.58174992920786,
+        "mae_train": 76620.96800950334,
+        "mae_test": 90215.70039968932
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 20.62105015954113,
+        "mape_test": 34.631436278930074,
+        "mae_train": 67596.3359734239,
+        "mae_test": 85679.39921633783
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 17.430885289275555,
+        "mape_test": 33.97111783748464,
+        "mae_train": 61944.08197669876,
+        "mae_test": 85060.20679851375
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 18.22857403659991,
+        "mape_test": 34.94905124195612,
+        "mae_train": 64785.58400091492,
+        "mae_test": 85967.47419458088
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 13.051581749227877,
+        "mape_test": 33.246305451620934,
+        "mae_train": 51037.16039217671,
+        "mae_test": 84176.37078229856
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 9.44858533938062,
+        "mape_test": 33.08290631388102,
+        "mae_train": 40794.187553336465,
+        "mae_test": 84564.41060636287
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 11.5801125911013,
+        "mape_test": 33.74233163915941,
+        "mae_train": 49196.80163349574,
+        "mae_test": 84217.49489216962
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 6.46886826049955,
+        "mape_test": 32.86522894154676,
+        "mae_train": 30371.749412414418,
+        "mae_test": 83690.17646818224
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 3.7229762953559664,
+        "mape_test": 32.756017651371046,
+        "mae_train": 18854.84889848565,
+        "mae_test": 83975.83613882876
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 22.535300321545687,
+        "mape_test": 35.36285441645682,
+        "mae_train": 71840.61624405607,
+        "mae_test": 87538.61320655207
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 16.478734759406045,
+        "mape_test": 34.08545254728077,
+        "mae_train": 59768.85221044981,
+        "mae_test": 86196.20664338072
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 13.091511065715103,
+        "mape_test": 33.86585794678866,
+        "mae_train": 51528.3748798948,
+        "mae_test": 86346.7815864609
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 15.356251363371515,
+        "mape_test": 33.75219580591052,
+        "mae_train": 57327.66368999557,
+        "mae_test": 85212.46015621042
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 7.811561072000539,
+        "mape_test": 33.20045988492877,
+        "mae_train": 35986.15714244971,
+        "mae_test": 85682.3454956232
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 4.660814445050878,
+        "mape_test": 33.156819558535865,
+        "mae_train": 23575.962653258368,
+        "mae_test": 86247.9401184539
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 8.568601655472085,
+        "mape_test": 33.104633413156314,
+        "mae_train": 38903.56102202897,
+        "mae_test": 84683.04364130956
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 2.8867587593650406,
+        "mape_test": 32.93941147038442,
+        "mae_train": 15051.04992354928,
+        "mae_test": 85614.21040218133
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.7,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 1.099657469270891,
+        "mape_test": 32.960093178696255,
+        "mae_train": 6173.742163123046,
+        "mae_test": 85902.1929627515
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 35.595478190244854,
+        "mape_test": 56.89566969020137,
+        "mae_train": 162558.03846685714,
+        "mae_test": 174896.80610383805
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 26.34916334836302,
+        "mape_test": 40.31962899371579,
+        "mae_train": 83947.75630911898,
+        "mae_test": 96295.29074848263
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 24.471566955058087,
+        "mape_test": 37.36741416458019,
+        "mae_train": 76242.33245013499,
+        "mae_test": 89685.54378457261
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 32.57912008398997,
+        "mape_test": 54.17672327435516,
+        "mae_train": 153182.87917558601,
+        "mae_test": 166868.82362957124
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 20.509195217397767,
+        "mape_test": 37.20661000102769,
+        "mae_train": 72435.19044434965,
+        "mae_test": 90235.20112669958
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 17.834939407609873,
+        "mape_test": 35.1247539642358,
+        "mae_train": 64181.30561251453,
+        "mae_test": 85651.69085015998
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 28.29687874684165,
+        "mape_test": 53.26944936963655,
+        "mae_train": 146503.9889046899,
+        "mae_test": 164783.1198690709
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 13.804398204906251,
+        "mape_test": 35.421890497831036,
+        "mae_train": 58925.390942323604,
+        "mae_test": 88326.89816788549
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.01,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 11.29141764122392,
+        "mape_test": 33.554779784238676,
+        "mae_train": 48242.62142582247,
+        "mae_test": 84262.61426592465
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 24.5718238629038,
+        "mape_test": 37.433215149882344,
+        "mae_train": 76410.15966437728,
+        "mae_test": 89831.75762079238
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 20.730784692556433,
+        "mape_test": 34.44321770952417,
+        "mae_train": 67282.79292444844,
+        "mae_test": 85776.13778115212
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 17.702436565025536,
+        "mape_test": 33.76137899614346,
+        "mae_train": 61569.13496328811,
+        "mae_test": 85182.52356331938
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 18.09900038952878,
+        "mape_test": 35.05600522566871,
+        "mae_train": 64430.74043821101,
+        "mae_test": 85669.67016710342
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 12.673059384672044,
+        "mape_test": 33.156490800820016,
+        "mae_train": 50613.15980173778,
+        "mae_test": 84214.92944266205
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 8.967385504551755,
+        "mape_test": 32.958750217614664,
+        "mae_train": 39795.39063342978,
+        "mae_test": 84710.12827046483
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 11.198485466147039,
+        "mape_test": 33.50979821142189,
+        "mae_train": 48493.41506687186,
+        "mae_test": 85077.05493533185
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 6.2059924795301065,
+        "mape_test": 32.68740976768079,
+        "mae_train": 29889.094798751103,
+        "mae_test": 84831.60358142083
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.05,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 3.599320542962767,
+        "mape_test": 32.6201044066731,
+        "mae_train": 18452.674338843673,
+        "mae_test": 85249.00582481119
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 22.820936554436845,
+        "mape_test": 35.07461287158144,
+        "mae_train": 71207.92077136133,
+        "mae_test": 87130.54397132462
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 16.029351225074475,
+        "mape_test": 33.58026306791097,
+        "mae_train": 59217.32255064516,
+        "mae_test": 85765.15404321045
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 4,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 12.07706244773772,
+        "mape_test": 33.40120088070528,
+        "mae_train": 50645.31775044685,
+        "mae_test": 85846.461254412
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 14.909633708886517,
+        "mape_test": 33.53245091441476,
+        "mae_train": 57521.40502609293,
+        "mae_test": 85318.51580629959
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 7.559547224142762,
+        "mape_test": 33.20092541411876,
+        "mae_train": 35640.94690614739,
+        "mae_test": 86378.40843726012
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 4.388590688492567,
+        "mape_test": 33.238599950573345,
+        "mae_train": 23007.28331423461,
+        "mae_test": 87306.9140051373
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 100
+        },
+        "mape_train": 8.506270935991067,
+        "mape_test": 32.95961723354312,
+        "mae_train": 38028.74950044837,
+        "mae_test": 85291.08863592808
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 300
+        },
+        "mape_train": 2.5848108056791044,
+        "mape_test": 32.79899593336697,
+        "mae_train": 13819.568528561387,
+        "mae_test": 86046.80266960432
+    },
+    {
+        "params": {
+            "objective": "reg:squarederror",
+            "tree_method": "hist",
+            "colsample_bytree": 0.9,
+            "learning_rate": 0.1,
+            "max_depth": 8,
+            "device": "cuda",
+            "num_boost_round": 500
+        },
+        "mape_train": 0.9488634146935466,
+        "mape_test": 32.806391023086135,
+        "mae_train": 5481.73724865416,
+        "mae_test": 86388.07759168517
+    }
+]
